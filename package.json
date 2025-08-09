@@ -10,9 +10,6 @@
     "turbo": "^2.0.4"
   },
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "test": "turbo run test"
+    "dev": "cd apps/web && bun dev"
   }
 }
